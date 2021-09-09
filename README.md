@@ -61,27 +61,7 @@ Press the below button to Fast deploy on Heroku
 then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables. </details>
 
 
-<details>
-  <summary><b>Host it on VPS Locally :</b></summary>
 
-
-```py
-git clone https://github.com/avipatilpro/FileStreamBot
-cd FileStreamBot
-virtualenv -p /usr/bin/python3 venv
-. ./venv/bin/activate
-pip install -r requirements.txt
-python3 -m WebStreamer
-```
-
-and to stop the whole bot,
- do <kbd>CTRL</kbd>+<kbd>C</kbd>
-
-Setting up things
-
-If you're on Heroku, just add these in the Environmental Variables
-or if you're Locally hosting, create a file named `.env` in the root directory and add all the variables there.
-An example of `.env` file:
 
 ```py
 API_ID=12345
@@ -141,4 +121,4 @@ To get an instant stream link, just forward any media to the bot and boom, its f
 Bot also Supported with Channels. Just add bot Channel as Admin. If any new file comes in Channel it will edit it with **Get Download Link** Button. </details>
 
 
-- [Avishkarpatil](https://telegram.me/Avishkarpatil)
+- [⚡️ ＭＲＵＮＡＬ•🇮🇳•🚀](https://telegram.me/Godmrunal)
